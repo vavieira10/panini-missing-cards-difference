@@ -1,4 +1,4 @@
-# wc2022-panini-missing-repeated-cards-intersection
+# World Cup 2022 Panini Missing x Repeated cards Intersection
 This project aims to provide a simple way to check the intersection of your missing and a third party repeated Panini 2022 World Cup Album cards.
 
 This is a project made simply for fun and to help checking which friends repeated cards are within my missing cards.
