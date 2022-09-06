@@ -26,23 +26,23 @@ class TestPaniniCardsIntersection(unittest.TestCase):
         fixtures = [
             {
                 "args": ["FWC 1, FWC2", "FWC 1, FWC 2"],
-                "expected": "FWC 1, FWC2"
+                "expected": ["FWC 1", "FWC2"]
             },
             {
                 "args": ["FWC 1|FWC2", "FWC 1|FWC 2", "|"],
-                "expected": "FWC 1|FWC2"
+                "expected": ["FWC 1", "FWC2"]
             },
             {
-                "args": ["FWC 1, FWC2", "FWC 2"],
-                "expected": "FWC2"
+                "args": ["FWC 1, FWC  2", "FWC 2"],
+                "expected": ["FWC  2"]
             },
             {
                 "args": ["FWC 1", "FWC 2"],
-                "expected": ""
+                "expected": []
             },
             {
                 "args": ["", ""],
-                "expected": ""
+                "expected": []
             }
         ]
 
